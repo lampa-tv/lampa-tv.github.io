@@ -16,7 +16,7 @@
           "layout": "0,0,5,1",
           "image": "http://raw.githack.com/yumata/lampa/main/msx-logo.png",
           "label": "Lampa",
-          "action": "link:http://raw.githack.com/yumata/lampa/main/index.html",
+          "action": "link:http://raw.githack.com/lampa-tv/lampa-tv.github.io/main/index.html",
           "selection": {
             "important": true,
             "action": "update:content:description",
