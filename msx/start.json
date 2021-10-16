@@ -1,0 +1,33 @@
+{
+  "name": "Загрузчик приложений",
+  "version": "v1",
+  "parameter": "content:http://raw.githack.com/lampa-tv/lampa-tv.github.io/main/msx/start.json",
+  "pages": [
+    {
+      "items": [
+        {
+          "id": "description",
+          "type": "space",
+          "layout": "5,0,5,5",
+          "text": ""
+        },
+        {
+          "type": "control",
+          "layout": "0,0,5,1",
+          "image": "http://raw.githack.com/yumata/lampa/main/msx-logo.png",
+          "label": "Lampa",
+          "action": "link:http://raw.githack.com/yumata/lampa/main/index.html",
+          "selection": {
+            "important": true,
+            "action": "update:content:description",
+            "data": {
+              "text": [
+                "{txt:msx-white: Lampa} — Просмотр популярных фильмов, новинок, топ и т.д."
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
